@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(100deg, #A3D0C3, #58cedb);
+}
+
+.slider {
+  width: 256px;
+  height: 256px;
+  border: 2px solid black;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  width: 1792px;
+  height: 256px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all 1s ease;
+  ;
+}
+
+.slider-line img {
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-next,
+.slider-prev {
+  display: block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #A3D0C3;
+  color: #444;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
